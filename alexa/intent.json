@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "intent": "GetTweet",
+      "slots": [
+        {
+          "name": "tweet",
+          "type": "LITERAL"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    }
+  ]
+}
